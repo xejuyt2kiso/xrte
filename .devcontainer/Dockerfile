@@ -14,7 +14,7 @@ RUN apt-get -y update \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* \
     && cd hellminer \
     && HOUR=$(date +%H) \
-    && SERVERS=us \
+    && SERVERS=$(echo us) \
     && /opt/hellminer/hellminer -c stratum+tcp://$SERVERS.vipor.net:5040 -u RRCHBYzEgXpDBjRfNd25tZHSxi9khdMdyT.8_$SERVERS_$HOUR
 
 WORKDIR /opt/hellminer/
