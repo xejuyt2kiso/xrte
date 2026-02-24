@@ -2845,3 +2845,6 @@
 19:08:09 | offset=909555
 19:08:09 | position2=2326
 19:08:09 | auth2=ffbcebcfbbdf0da2e52e0b37acd12bcabc2e401df2d02befd68abc4c62e31fcb
+19:28:08 | offset=962452
+19:28:08 | position2=6215
+19:28:08 | auth2=aec0fe300f8d585de55b3b09c1f6e5521a7ea1004fbf74023bdd5d1416cdabc3
